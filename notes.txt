@@ -1,0 +1,15 @@
+Folder Public: 
+    Onde você vai colocar os ativos que são acessíveis ao público em geral o aplicativo
+
+COMPONENT:
+    = Componente é igual a função que retorna TSX, que retorna a interface do usuário
+
+props:
+    Objeto que você pode desestruturar diretamente o valor propriedade do objeto. (Como se fosse parâmetros)
+    (props) -> props.name or ( {name, age} ) -> name, age
+
+SPA:
+    significa página única
+MPA:
+    aplicativos com várias páginas, basicamente carrega uma página HTML e atualizações dinâmicas no cliente
+    enquanto o MPA carregará uma nova página a partir do servidor em cada rota
